@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<title>Tugas Form Pendaftaran Sensus Penduduk</title>
+</head>
+<style>
+.box1{
+width:500px;
+height: 380px;
+background:white;
+border:solid 3px rgb(91, 161, 253);
+}
+h1{
+font-weight: bolder;
+color:rgb(255, 255, 255);
+}
+h1 span{
+ background-color: rgb(231, 97, 198);
+}
+
+p span{
+    background-color: rgba(238, 20, 220, 0.719);
+    font-weight: bold;
+    font-size: larger;
+}
+body{
+background-size: 2900px;
+background-position: center;
+}
+fieldset{
+font-size: large;
+width: 500px;
+background-color:white;
+
+}
+label{
+    font-size: large;
+}
+legend{
+font-size: xx-large;
+background-color:rgb(9, 137, 241);
+text-align:left;
+}
+</style>
+<body>  
+<center><h1><span>Buat Akun Baru</span></h1></center>
+<form action="post task 2 119140213.php" method="post">
+<center><fieldset><center>
+<legend><strong>Form Pendaftaran Sensus Penduduk</strong></legend>
+<div class="box1">
+<br>
+<input type="text" id="nama" name="nama" placeholder="Nama" required><br><br>
+<input type="text" id="umur" name="umur" placeholder="Umur" required><br><br>
+<label for="jk">Jenis Kelamin:</label>
+<input type="radio" id="jk" name="jk" VALUE="laki-laki"required>Laki-laki
+<input type="radio" id="jk" name="jk" VALUE="perempuan"required>Perempuan<br><br>
+<input type="alamat" id="alamat" name="alamat" placeholder="Alamat" required><br><br>
+<input type="text" id="NIK" name="NIK" placeholder="NIK" required>
+<label for="pass">Password:</label><br>
+<input type="submit" name="submit" value="Daftar" style="height: 35px;width: 75px; font-size: larger;">
+</div>
+</fieldset>
+</form>
+
+</body>
+<footer>
+</footer>
